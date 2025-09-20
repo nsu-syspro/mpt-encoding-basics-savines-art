@@ -2,4 +2,4 @@
 
 # Вывести дату в формате:
 #   13 октября 2023 года, Пятница
-export LC_TIME=ru_RU.UTF-8 date '+%m %B %Y года, %A'
+LC_TIME=ru_RU.UTF-8 date '+%m %B %Y года, %A'
